@@ -1,0 +1,100 @@
+#dropArea {
+    width: 100%;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+#dropArea img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity ease-in-out;
+}
+
+#dropArea.dragover {
+    border-color: #4CAF50;
+}
+
+#dropArea.dragover img {
+    opacity: 1;
+}
+
+#dropArea:hover {
+    border-color: #4CAF50;
+}
+
+#dropArea:hover img {
+    opacity: 1;
+}
+
+.file-input-text {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#fileInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* ---------------------------------- */
+
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style des cellules d'en-tête */
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Style des cellules de données */
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Style des lignes alternées */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.espace {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 0px; /* ajustez selon vos besoins */
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block; /* Pour que la div ait la même largeur que son contenu */
+  }
+.bouton-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.bouton-toggle:focus {
+    outline: none;
+}

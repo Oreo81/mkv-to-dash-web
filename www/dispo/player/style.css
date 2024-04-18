@@ -1,0 +1,5 @@
+.video-js .vjs-seek-button{cursor:pointer;font-weight:400;font-style:normal}
+.video-js .vjs-seek-button .skip-back::before,.video-js.vjs-v6 .vjs-seek-button.skip-back .vjs-icon-placeholder::before,.video-js.vjs-v7 .vjs-seek-button.skip-back .vjs-icon-placeholder::before{content:'-10'}
+/* .video-js .vjs-seek-button.skip-forward::before{content:'\f116'} */
+.video-js.vjs-v6 .vjs-seek-button.skip-back::before,.video-js.vjs-v6 .vjs-seek-button.skip-forward::before,.video-js.vjs-v7 .vjs-seek-button.skip-back::before,.video-js.vjs-v7 .vjs-seek-button.skip-forward::before{content:none}
+.video-js.vjs-v6 .vjs-seek-button.skip-forward .vjs-icon-placeholder::before,.video-js.vjs-v7 .vjs-seek-button.skip-forward .vjs-icon-placeholder::before{content:'+10'}

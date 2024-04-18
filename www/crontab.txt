@@ -1,0 +1,1 @@
+*/60 * * * * cd /opt/vod.lgdl.org/video_convert/ && python3 check.py >> output.txt
